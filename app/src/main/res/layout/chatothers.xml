@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/reading"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/textViewotherstext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/otherschat"
+            android:layout_alignParentLeft="true"
+            android:paddingTop="@dimen/dimen_8x"
+            android:paddingEnd="@dimen/dimen_16x"
+            android:paddingStart="@dimen/dimen_16x"
+            android:paddingBottom="@dimen/dimen_8x"
+            android:text="Text"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewotherstime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewotherstext"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:paddingStart="@dimen/dimen_8x"
+            android:paddingEnd="@dimen/dimen_8x"
+            android:textColor="@color/gradient_4_start"
+            android:text="Text"
+            android:textSize="12sp" />
+
+</RelativeLayout>
+

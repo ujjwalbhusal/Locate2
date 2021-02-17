@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Realtime Location</string>
+    <string name="teacher_s_login">Employee Login</string>
+    <string name="student_login">Admin Login</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_login">Login Activity</string>
+
+    <!--    &lt;!&ndash;    Slider Screen Buttons&ndash;&gt;-->
+    <!--    <string name="next">NEXT</string>-->
+    <!--    <string name="skip">SKIP</string>-->
+    <!--    <string name="start">START</string>-->
+    <!--    <string name="title_slide1">Friendship</string>-->
+    <!--    <string name="desc_slide1">you can find a large number of people to build up friendship</string>-->
+    <!--    <string name="title_slide2">No Cost</string>-->
+    <!--    <string name="desc_slide2">uChat is completely FREE of cost, no subscription fees.</string>-->
+    <!--    <string name="title_slide3">Chatting</string>-->
+    <!--    <string name="desc_slide3">fully one to one personal chatting system</string>-->
+    <!--    <string name="title_slide4">Secure</string>-->
+    <!--    <string name="desc_slide4">uChat keeps your messages secure</string>-->
+
+    <string name="email">Email</string>
+    <string name="password">Password*</string>
+    <string name="fpwd">Forgot Password?</string>
+    <string name="login">Log In</string>
+    <string name="signup">Not a member? Sign up</string>
+    <string name="name">Name*</string>
+    <string name="department">Department</string>
+    <string name="signupp">Sign Up</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="otherloginoptions">Other Login Options</string>
+    <string name="messages">Messages</string>
+    <string name="connections">My Connections</string>
+    <string name="requests">Requests</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location">Show Employee\'s Location</string>
+    <string name="tools">Tools</string>
+    <string name="error_getting_distance">Error! Getting Distance!</string>
+    <string name="connected_students">Connected Admins</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="enrollment_number">Enrollment Number</string>
+    <string name="verify_your_email">Verify your Credentials!</string>
+    <string name="ok">OK</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="enter_your_email_amp_tap_on_ok_button">Enter Registered Email</string>
+    <string name="choose_profile_picture">Choose Profile Picture</string>
+    <string name="id_number">Organization Unique ID Number*</string>
+    <string name="college_school">Organization</string>
+    <string name="phone_number">Phone Number with Country code</string>
+    <string name="you_can_sign_up_via_email_or_phone_number_or_both">You can sign up via Email or Phone Number.</string>
+    <string name="login_via_phone_number">Login via Phone Number</string>
+    <string name="loading_please_wait">Loading.. Please Wait!</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="settings">Settings</string>
+    <string name="google_maps_key">AIzaSyCQTGhKd5HRI5uckjMnas4Lorlfd1ViJ-k</string>
+
+    <string name="apply_for_leave">Apply for leave</string>
+    <string name="leave_request">Permit Leave</string>
+
+    <string name="accept_leave">Accept Leave</string>
+    <string name="reject_leave">Reject Leave</string>
+
+
+    <string name="search">Search</string>
+    <string name="allowances">Allowances</string>
+    <string name="current_project">Current Project</string>
+    <string name="extra_quote">Extra quote</string>
+    <string name="reason_for_leave">Reason for leave</string>
+    <string name="to">to</string>
+    <string name="from">from</string>
+    <string name="request">REQUEST</string>
+    <string name="apply_for_leave_title">Apply For Leave</string>
+    <string name="allowances_list">List of Allowances</string>
+    <string name="laws">Laws</string>
+    <string name="worker_laws">Worker Laws</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_view_attendance_by_employee">ViewAttendanceByEmployee</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+
+</resources>

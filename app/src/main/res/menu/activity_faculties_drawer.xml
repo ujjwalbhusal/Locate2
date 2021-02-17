@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/connections"
+            android:icon="@drawable/ic_friends_nav"
+            android:title="@string/connections" />
+
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/ic_tasks"
+            android:title="Dashboard" />
+
+<!--        faculty is employee -->
+
+
+        <item
+            android:id="@+id/tools"
+            android:icon="@drawable/ic_nav_settings"
+            android:title="@string/settings" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_worker"-->
+<!--            android:icon="@drawable/ic_employee"-->
+<!--            android:title="Worker Details" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_project_details"-->
+<!--            android:icon="@drawable/ic_project_details"-->
+<!--            android:title="Project Details" />-->
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_leave_management"
+            android:icon="@drawable/ic_leave"
+            android:title="Apply for Leave" />
+<!--        <item-->
+<!--            android:id="@+id/nav_allowance_management"-->
+<!--            android:icon="@drawable/ic_allowances"-->
+<!--            android:title="Allowance Management" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_sup_tasks"-->
+<!--            android:icon="@drawable/ic_tasks"-->
+<!--            android:title="Tasks" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_worker_laws"-->
+<!--            android:icon="@drawable/ic_laws"-->
+<!--            android:title="Laws" />-->
+
+
+
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/sign_out" />
+
+
+    </group>
+
+</menu>

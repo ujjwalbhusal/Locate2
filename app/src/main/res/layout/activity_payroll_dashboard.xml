@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/reading"
+    tools:context=".view.payroll.PayrollDashboardActivity">
+
+    <Button
+        android:id="@+id/logout_btn_ui4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_logout"
+        android:onClick="logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="343dp"
+        android:layout_height="392dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:padding="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logout_btn_ui4"
+        app:layout_constraintVertical_bias="0.24">
+
+
+        <Button
+            android:id="@+id/addemp_ui4"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/addemp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addemp_ui4"
+            android:layout_alignParentLeft="true"
+            android:text="Add Employee"
+            android:textColor="#4e4f51"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/payslip_ui4"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/payslip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/payslip_ui4"
+            android:layout_alignParentRight="true"
+            android:text="    Pay Slip     "
+            android:textColor="#4e4f51"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/viewemp_ui4"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_above="@+id/txt_viewemp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="-1dp"
+            android:background="@drawable/viewemp" />
+
+        <TextView
+            android:id="@+id/txt_viewemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:text="View Employee"
+            android:textColor="#4e4f51"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/transactions_ui4"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_above="@+id/txt_txn"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/transaction" />
+
+        <TextView
+            android:id="@+id/txt_txn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="Transactions"
+            android:textColor="#4e4f51"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

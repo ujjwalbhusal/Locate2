@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1084497946451",
+    "project_id": "locate2-3aed1",
+    "storage_bucket": "locate2-3aed1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084497946451:android:01b455484016eaa7f863a6",
+        "android_client_info": {
+          "package_name": "com.ujwal.locate2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084497946451-4rr9uclv1p6f0ukbe2tmuvcqs0famje9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1FBG26-cEdBY1tA-MCpkzBuBJ8j042RU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084497946451-4rr9uclv1p6f0ukbe2tmuvcqs0famje9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

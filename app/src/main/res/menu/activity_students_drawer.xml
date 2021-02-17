@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/connections"
+            android:icon="@drawable/ic_friends_nav"
+            android:title="@string/connections" />
+
+        <item
+            android:id="@+id/nav_payroll"
+            android:icon="@drawable/ic_employee"
+            android:title="Payroll Add Employee" />
+
+        <item
+            android:id="@+id/nav_payroll3"
+            android:icon="@drawable/ic_employee"
+            android:title="Payroll View Employee" />
+
+        <item
+            android:id="@+id/nav_payroll1"
+            android:icon="@drawable/ic_allowences"
+            android:title="Pay Slip" />
+        <item
+            android:id="@+id/nav_payroll2"
+            android:icon="@drawable/ic_allowances"
+            android:title="Transcations" />
+
+
+<!--        student is admin-->
+
+
+        <!--  <item
+              android:id="@+id/messages"
+              android:icon="@drawable/ic_nav_message"
+              android:title="@string/messages" />
+          <item
+              android:id="@+id/requests"
+              android:icon="@drawable/ic_nav_achievements"
+              android:title="@string/requests" /> -->
+        <item
+            android:id="@+id/tools"
+            android:icon="@drawable/ic_nav_settings"
+            android:title="@string/settings" />
+
+
+
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="Calendar" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_search"-->
+<!--            android:icon="@drawable/ic_search"-->
+<!--            android:title="Search" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_leave"-->
+<!--            android:icon="@drawable/ic_leave"-->
+<!--            android:title="Leave Management" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_allowance"-->
+<!--            android:icon="@drawable/ic_allowences"-->
+<!--            android:title="Allowances" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_scan"-->
+<!--            android:title="Scan QR Code"-->
+<!--            android:icon="@drawable/ic_laws"/>-->
+
+
+<!--        <item-->
+<!--            android:id="@+id/nav_project_status"-->
+<!--            android:title="Current Project"-->
+<!--            android:icon="@drawable/ic_project_status"/>-->
+
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/sign_out" />
+
+
+
+    </group>
+
+</menu>

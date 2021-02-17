@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/constraintlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.ChatActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingTop="@dimen/dimen_4x"
+        android:paddingStart="@dimen/dimen_4x"
+        android:paddingEnd="@dimen/dimen_4x"
+        android:id="@+id/recyclerViewChat"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dimen_64x"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/progressBarChat"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:background="@drawable/chatboxcircle"
+        app:hintEnabled="false"
+        android:gravity="bottom"
+        android:foregroundGravity="bottom"
+        android:paddingBottom="@dimen/dimen_4x"
+        android:paddingStart="@dimen/dimen_4x"
+        android:paddingEnd="@dimen/dimen_4x"
+        app:layout_constraintEnd_toStartOf="@id/floatingActionButtonSend"
+        app:layout_constraintStart_toStartOf="@+id/recyclerViewChat"
+        app:layout_constraintTop_toBottomOf="@id/recyclerViewChat">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/chattext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:nextFocusDown="@id/chattext"
+            android:paddingStart="@dimen/dimen_16x"
+            android:inputType="text|textNoSuggestions"
+            android:paddingLeft="@dimen/dimen_16x"
+            android:paddingEnd="@dimen/dimen_16x"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:textSize="@dimen/text_16x"
+            android:hint="@string/enter_message"
+            android:paddingRight="@dimen/dimen_16x" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButtonSend"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foregroundGravity="center"
+        android:background="@color/realtime"
+        app:layout_constraintStart_toEndOf="@id/textInputLayout"
+        app:layout_constraintTop_toBottomOf="@id/recyclerViewChat"
+        app:srcCompat="@drawable/ic_menu_send"
+        android:contentDescription="TODO" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

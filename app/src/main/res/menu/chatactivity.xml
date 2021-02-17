@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/requestlocation"
+        android:orderInCategory="100"
+        android:title="@string/location"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/attendemployee"
+        android:orderInCategory="100"
+        android:title="View Employee's Attendance"
+        app:showAsAction="never" />
+
+</menu>

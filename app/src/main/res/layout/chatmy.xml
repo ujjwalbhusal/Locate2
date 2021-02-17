@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/reading"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/textViewmytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/mychat"
+            android:paddingTop="@dimen/dimen_8x"
+            android:paddingEnd="@dimen/dimen_16x"
+            android:paddingStart="@dimen/dimen_16x"
+            android:paddingBottom="@dimen/dimen_8x"
+            android:text="Text"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewmytime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewmytext"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:paddingStart="@dimen/dimen_8x"
+            android:paddingEnd="@dimen/dimen_8x"
+            android:text="Text"
+            android:textColor="@color/gradient_4_start"
+            android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewmytime"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingStart="@dimen/dimen_8x"
+        android:paddingEnd="@dimen/dimen_8x"
+        android:text="Text"
+        android:textColor="@color/gradient_4_start"
+        android:textSize="12sp"
+        app:fontFamily="@font/billabong" />
+    </RelativeLayout>
+

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/reading"
+    tools:context=".view.payroll.AddEmployeeActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Employee"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <EditText
+        android:id="@+id/ein_ui5"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_number"
+        android:ems="10"
+        android:hint=" EIN"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="#292929"
+        android:textColorHint="#797979"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <EditText
+        android:id="@+id/fullname_ui5"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:backgroundTint="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_name"
+        android:ems="10"
+        android:hint=" Full Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="#292929"
+        android:textColorHint="#797979"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+    <EditText
+        android:id="@+id/mobile_input_ui5"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:backgroundTint="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_number"
+        android:ems="10"
+        android:hint=" Mobile"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="#292929"
+        android:textColorHint="#797979"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435" />
+
+
+    <EditText
+        android:id="@+id/email_input_ui5"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:backgroundTint="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint=" Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#292929"
+        android:textColorHint="#797979"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537" />
+
+
+    <TextView
+        android:id="@+id/doj_ui5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52dp"
+        android:drawableStart="@drawable/ic_date"
+        android:drawableLeft="@drawable/ic_date"
+        android:hint=" Date of Joining"
+        android:padding="10dp"
+        android:textColor="#292929"
+        android:textColorHint="#797979"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <Button
+        android:id="@+id/submit_btn_ui5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/checked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_ui5"
+        style="?android:attr/progressBarStyle"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
