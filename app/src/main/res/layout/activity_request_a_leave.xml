@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -21,46 +22,52 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/leaveto"
         android:layout_width="328dp"
-        android:layout_height="52dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:layout_marginBottom="48dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="to"
+        android:hint="@string/to"
+        android:inputType="date"
         app:layout_constraintBottom_toTopOf="@+id/leavedesc"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintHorizontal_bias="0.343"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/leavefrom"
+        app:layout_constraintVertical_bias="0.0"
+        app:drawableStartCompat="@drawable/ic_date"
+        app:drawableLeftCompat="@drawable/ic_date"/>
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="0dp"
+        android:id="@+id/leavefrom"
+        android:layout_width="328dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="52dp"
         android:ems="10"
-        android:inputType="text"
-        android:hint="from"
+        android:hint="@string/from"
+        android:inputType="date"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.322"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:drawableStartCompat="@drawable/ic_date"
+        app:drawableLeftCompat="@drawable/ic_date"/>
 
     <EditText
         android:id="@+id/leavedesc"
         android:layout_width="328dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="leave description"
+        android:hint="@string/leave_description"
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintHorizontal_bias="0.373"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.475"
@@ -71,7 +78,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/yellow"
-        android:text="Request leave"
+        android:text="@string/request_leave"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -96,7 +103,6 @@
         app:layout_constraintTop_toBottomOf="@+id/btnrequestleave"
         app:layout_constraintVertical_bias="0.1"
         app:layout_constraintWidth_percent=".8" />
-
 
 
 

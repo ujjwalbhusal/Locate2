@@ -110,9 +110,7 @@ public class FacultyMainActivity extends AppCompatActivity
         myRef = mFirebaseDatabase.getReference();
         firebaseAuth=FirebaseAuth.getInstance();
         firebaseUser=firebaseAuth.getCurrentUser();
-//        facultyViewModel= ViewModelProviders.of(FacultyMainActivity.this).get(FacultyViewModel.class);
         facultyViewModel = new ViewModelProvider(FacultyMainActivity.this).get(FacultyViewModel.class);
-//        studentViewModel=ViewModelProviders.of(FacultyMainActivity.this).get(StudentViewModel.class);
         studentViewModel = new ViewModelProvider(FacultyMainActivity.this).get(StudentViewModel.class);
 
         myRef.child("students").keepSynced(true);

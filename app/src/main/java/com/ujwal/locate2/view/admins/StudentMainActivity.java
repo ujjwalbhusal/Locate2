@@ -97,9 +97,7 @@ public class StudentMainActivity extends AppCompatActivity
         getSupportActionBar().setTitle("Connected Employees");
         progressBar=findViewById(R.id.progressBarHome);
         mFirebaseDatabase = FirebaseUtils.getDatabase();
-//        studentViewModel= ViewModelProviders.of(StudentMainActivity.this).get(StudentViewModel.class);
         studentViewModel= new ViewModelProvider(StudentMainActivity.this).get(StudentViewModel.class);
-//        facultyViewModel=ViewModelProviders.of(StudentMainActivity.this).get(FacultyViewModel.class);
         facultyViewModel= new ViewModelProvider(StudentMainActivity.this).get(FacultyViewModel.class);
 
         myRef = mFirebaseDatabase.getReference();

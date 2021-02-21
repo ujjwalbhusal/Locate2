@@ -104,7 +104,6 @@ public class ChatActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerViewChat);
         firebaseDatabase= FirebaseUtils.getDatabase();
         reference = firebaseDatabase.getReference();
-//        chatViewModel= ViewModelProviders.of(ChatActivity.this).get(ChatViewModel.class);
         chatViewModel= new ViewModelProvider(ChatActivity.this).get(ChatViewModel.class);
         editText.requestFocus();
         loadView();

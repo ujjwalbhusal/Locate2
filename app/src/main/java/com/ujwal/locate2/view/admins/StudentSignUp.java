@@ -25,7 +25,6 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.lifecycle.ViewModelProviders;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
@@ -129,10 +128,8 @@ public class StudentSignUp extends AppCompatActivity {
         enNo = signUpBinding.enrolno;
         password = signUpBinding.passwords;
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
-//        facultyViewModel = ViewModelProviders.of(StudentSignUp.this).get(FacultyViewModel.class);
         facultyViewModel = new ViewModelProvider(StudentSignUp.this).get(FacultyViewModel.class);
 
-//        studentViewModel = ViewModelProviders.of(StudentSignUp.this).get(StudentViewModel.class);
         studentViewModel = new ViewModelProvider(StudentSignUp.this).get(StudentViewModel.class);
 
         signUpBinding.setClickHandlers(new SignUpActivityClickHandlers(name.getText().toString().trim(), email.getText().toString().trim(), password.getText().toString().trim(), enNo.getText().toString().trim(), phonenumber.getText().toString().trim(), StudentSignUp.this));

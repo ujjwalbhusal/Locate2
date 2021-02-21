@@ -5,13 +5,19 @@ public class LeaveHelper {
     String desc;
     String date;
     String time;
+
+    String from;
+    String to;
+
     Boolean isLeave;
 
 
-    public LeaveHelper(String desc, String date, String time, Boolean isLeave) {
+    public LeaveHelper(String desc, String date, String time, String from, String to, Boolean isLeave) {
         this.desc = desc;
         this.date = date;
         this.time = time;
+        this.from = from;
+        this.to = to;
         this.isLeave = isLeave;
 
     }
@@ -47,6 +53,23 @@ public class LeaveHelper {
 
     public void setTime(String time) {
         this.time = time;
+    }
+
+
+    public String getFrom() {
+        return from;
+    }
+
+    public void setFrom(String from) {
+        this.from = from;
+    }
+
+    public String getTo() {
+        return to;
+    }
+
+    public void setTo(String to) {
+        this.to = to;
     }
 
 

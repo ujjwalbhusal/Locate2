@@ -25,7 +25,6 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.lifecycle.ViewModelProviders;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
@@ -133,9 +132,8 @@ public class FacultySignUp extends AppCompatActivity {
         password = signUpBinding.passwords;
         imageView = signUpBinding.imageViewProfilePictureFaculty;
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
-//        facultyViewModel = ViewModelProviders.of(FacultySignUp.this).get(FacultyViewModel.class);
+        //        studentViewModel = ViewModelProviders.of(FacultySignUp.this).get(StudentViewModel.class);
         facultyViewModel = new ViewModelProvider(FacultySignUp.this).get(FacultyViewModel.class);
-//        studentViewModel = ViewModelProviders.of(FacultySignUp.this).get(StudentViewModel.class);
         studentViewModel = new ViewModelProvider(FacultySignUp.this).get(StudentViewModel.class);
 
         signUpBinding.setClickHandlers(new SignUpActivityClickHandlers(name.getText().toString().trim(), email.getText().toString().trim(), password.getText().toString().trim(), emplyeeid.getText().toString().trim(), phonenumber.getText().toString().trim(), FacultySignUp.this));

@@ -11,19 +11,6 @@
     <string name="action_settings">Settings</string>
     <string name="activity_login">Login Activity</string>
 
-    <!--    &lt;!&ndash;    Slider Screen Buttons&ndash;&gt;-->
-    <!--    <string name="next">NEXT</string>-->
-    <!--    <string name="skip">SKIP</string>-->
-    <!--    <string name="start">START</string>-->
-    <!--    <string name="title_slide1">Friendship</string>-->
-    <!--    <string name="desc_slide1">you can find a large number of people to build up friendship</string>-->
-    <!--    <string name="title_slide2">No Cost</string>-->
-    <!--    <string name="desc_slide2">uChat is completely FREE of cost, no subscription fees.</string>-->
-    <!--    <string name="title_slide3">Chatting</string>-->
-    <!--    <string name="desc_slide3">fully one to one personal chatting system</string>-->
-    <!--    <string name="title_slide4">Secure</string>-->
-    <!--    <string name="desc_slide4">uChat keeps your messages secure</string>-->
-
     <string name="email">Email</string>
     <string name="password">Password*</string>
     <string name="fpwd">Forgot Password?</string>
@@ -63,31 +50,34 @@
 
     <string name="apply_for_leave">Apply for leave</string>
     <string name="leave_request">Permit Leave</string>
-
     <string name="accept_leave">Accept Leave</string>
     <string name="reject_leave">Reject Leave</string>
-
-
-    <string name="search">Search</string>
-    <string name="allowances">Allowances</string>
-    <string name="current_project">Current Project</string>
-    <string name="extra_quote">Extra quote</string>
     <string name="reason_for_leave">Reason for leave</string>
-    <string name="to">to</string>
-    <string name="from">from</string>
-    <string name="request">REQUEST</string>
     <string name="apply_for_leave_title">Apply For Leave</string>
-    <string name="allowances_list">List of Allowances</string>
-    <string name="laws">Laws</string>
-    <string name="worker_laws">Worker Laws</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_view_attendance_by_employee">ViewAttendanceByEmployee</string>
-    <!--
-    This string is used for square devices and overridden by hello_world in
-    values-round/strings.xml for round devices.
-    -->
+
+
     <string name="hello_world">Hello Square World!</string>
+    <string name="date_of_joining">Date of Joining</string>
+    <string name="pay_date">Pay Date</string>
+    <string name="payable_days">Payable Days:</string>
+    <string name="payable_days1">Payable Days</string>
+    <string name="basic_salary">Basic Salary:</string>
+    <string name="bonus">Bonus:</string>
+    <string name="bonus1">Bonus</string>
+    <string name="absent">Absent:</string>
+    <string name="epf">ePF:</string>
+    <string name="health_insurance">Health Insurance:</string>
+    <string name="esi">ESI:</string>
+    <string name="child_support">Child Support:</string>
+    <string name="net_pay">Net Pay:</string>
+    <string name="leave_description">leave description</string>
+    <string name="request_leave">Request leave</string>
+    <string name="from">from</string>
+    <string name="to">to</string>
 
 
 </resources>

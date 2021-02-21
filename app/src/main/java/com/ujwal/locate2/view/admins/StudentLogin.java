@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.widget.NestedScrollView;
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Context;
 import android.content.Intent;
@@ -96,12 +95,10 @@ public class StudentLogin extends AppCompatActivity {
         databaseReference=firebaseDatabase.getReference();
         password=loginBinding.password;
         forgotpass=loginBinding.textViewforgotstu;
-//        studentViewModel = ViewModelProviders.of(StudentLogin.this).get(StudentViewModel.class);
+
+
 
         studentViewModel = new ViewModelProvider(StudentLogin.this).get(StudentViewModel.class);
-
-
-//        facultyViewModel= ViewModelProviders.of(StudentLogin.this).get(FacultyViewModel.class);
 
         facultyViewModel = new ViewModelProvider(StudentLogin.this).get(FacultyViewModel.class);
 

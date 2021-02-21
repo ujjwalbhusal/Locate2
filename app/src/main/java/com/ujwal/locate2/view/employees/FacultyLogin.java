@@ -105,9 +105,7 @@ public class FacultyLogin extends AppCompatActivity {
         databaseReference = firebaseDatabase.getReference();
         password = loginBinding.password;
         forgotpass = loginBinding.textViewforgotfac;
-//        studentViewModel = ViewModelProviders.of(FacultyLogin.this).get(StudentViewModel.class);
         studentViewModel = new ViewModelProvider(FacultyLogin.this).get(StudentViewModel.class);
-//        facultyViewModel = ViewModelProviders.of(FacultyLogin.this).get(FacultyViewModel.class);
         facultyViewModel = new ViewModelProvider(FacultyLogin.this).get(FacultyViewModel.class);
 
         loginBinding.setClickHandlers(new FacultyLoginActivityClickHandlers(email.getText().toString().trim(), password.getText().toString().trim(), FacultyLogin.this));

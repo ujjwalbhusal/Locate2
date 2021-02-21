@@ -110,10 +110,8 @@
         android:id="@+id/doj_ui5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="52dp"
-        android:drawableStart="@drawable/ic_date"
-        android:drawableLeft="@drawable/ic_date"
-        android:hint=" Date of Joining"
+        android:layout_marginStart="52dp"
+        android:hint="@string/date_of_joining"
         android:padding="10dp"
         android:textColor="#292929"
         android:textColorHint="#797979"
@@ -123,7 +121,9 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.644" />
+        app:layout_constraintVertical_bias="0.644"
+        app:drawableStartCompat="@drawable/ic_date"
+        app:drawableLeftCompat="@drawable/ic_date" />
 
     <Button
         android:id="@+id/submit_btn_ui5"

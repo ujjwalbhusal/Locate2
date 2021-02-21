@@ -1,4 +1,4 @@
-package com.ujwal.locate2.splashscreen;
+package com.ujwal.locate2.view;
 
 import android.content.Intent;
 import android.os.Bundle;
